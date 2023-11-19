@@ -2,15 +2,10 @@
 
 
 
-# CrackFormer
 
->[CrackFormer: Transformer Network for Fine-Grained Crack Detection,
->Huajun Liu, Xiangyu Miao, Christoph Mertz, Chengzhong Xu, Hui Kong; 
-ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/html/Liu_CrackFormer_Transformer_Network_for_Fine-Grained_Crack_Detection_ICCV_2021_paper.html)
->
->[CrackFormer Network for Pavement Crack Segmentation,
->Huajun Liu, Jing Yang, Xiangyu Miao, Christoph Mertz, Hui Kong; 
-IEEE TITS 2023](https://ieeexplore.ieee.org/abstract/document/10109158)
+
+>[Learning to Segment Complex Vessel-like Structures with Spectral Transformer,
+
 
 ## usage
 ### datasets
@@ -18,18 +13,33 @@ Download the [cracktree](https://www.sciencedirect.com/science/article/pii/S0167
 cal convolutional features for crack detection.),[stone331](https://www.sciencedirect.com/science/article/pii/S1051200420302529),[crack537](https://www.sciencedirect.com/science/article/pii/S0925231219300566) dataset and the file follows the following structure.
 
 ```
-|-- datasets
-    |-- crack315
-        |-- train
-        |   |-- train.txt
-        |   |--img
-        |   |   |--<crack1.jpg>
-        |   |--gt
-        |   |   |--<crack1.bmp>
-        |-- valid
-        |   |-- Valid_image
-        |   |-- Lable_image
-        |   |-- Valid_result
+new_dataset
+|_test
+|   |_images
+|   |	|_CFD
+|   |   |  |_CFD_00..jpg
+|   |   |_cracktree
+|   |   |  |_a..jpg
+|   |_masks
+|   |	|_CFD
+|   |   |  |_CFD_00..jpg
+|   |   |_cracktree
+|   |   |  |_a..jpg
+|_train
+|   |_images
+|   |	|_CFD
+|   |   |  |_CFD_00..jpg
+|   |   |_cracktree
+|   |   |  |_a..jpg
+|   |_masks
+|   |	|_CFD
+|   |   |  |_CFD_00..jpg
+|   |   |_cracktree
+|   |   |  |_a..jpg
+|   |_CFD.txt
+|   |_cracktree.txt
+
+
         ......
 ```
 
