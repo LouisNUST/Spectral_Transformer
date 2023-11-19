@@ -73,10 +73,15 @@ Download the trained model.
 
 | dataset    | Pre-trained Model                                            |
 | ---------- | ------------------------------------------------------------ |
+| CHASE-DB   | [Link] |
+| PRIME-FP20 | [Link] |
+| RECOVERY   | [Link] |
 | cracktree  | [Link] |
 | crackls315 | [Link] |
-| stone331   | [Link] |
-| crack537   | [Link] |
+| CFD        | [Link] |
+| Massachusetts Road   | [Link] |
+| DeepGlobe Road       | [Link] |
+
 
                                                        |
 
