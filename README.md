@@ -45,8 +45,9 @@ new_dataset
 
 train.txt format
 ```
-./dataset/crack315/img/crack1.jpg ./dataset/crack315/gt/crack1.bmp
-./dataset/crack315/img/crack2.jpg ./dataset/crack315/gt/crack2.bmp
+    train_img_dir = "./datasets/new_dataset/train/"+ datasetName +".txt"   
+    valid_img_dir = "./datasets/new_dataset/test/images/"+datasetName+'/'
+    valid_lab_dir = "./datasets/new_dataset/test/masks/"+datasetName+'/'
 .....
 ```
 
