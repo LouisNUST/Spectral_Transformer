@@ -73,10 +73,10 @@ Download the trained model.
 
 | dataset    | Pre-trained Model                                            |
 | ---------- | ------------------------------------------------------------ |
-| cracktree  | [Link](https://drive.google.com/file/d/1avhmDO7AdM_D4BR25aeNg7lBgch6m_d8/view?usp=share_link) |
-| crackls315 | [Link](https://drive.google.com/file/d/1ugZkeQ8_RFkaP_caLCIshbzJDD2MOHau/view?usp=share_link) |
-| stone331   | [Link](https://drive.google.com/file/d/1L_f-yUIQc1YP7xHaQtCn-agcVtjWVV6O/view?usp=share_link) |
-| crack537   | [Link](https://drive.google.com/file/d/1A5m_rsFcwONii1fi_39jZ-HcTeLw7Rvb/view?usp=share_link) |
+| cracktree  | [Link] |
+| crackls315 | [Link] |
+| stone331   | [Link] |
+| crack537   | [Link] |
 
                                                        |
 
