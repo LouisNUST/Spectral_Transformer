@@ -84,7 +84,7 @@ Download the trained model.
 | DeepGlobe Road       | [Link] |
 
 
-                                                       |
+
 
 ## Acknowledgments
 
